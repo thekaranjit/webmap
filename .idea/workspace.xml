@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6da0e5e6-0d01-4b7a-ac37-2765853490fe" name="Default Changelist" comment="" />
+    <list default="true" id="6da0e5e6-0d01-4b7a-ac37-2765853490fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Map2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Map2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordinatesfromfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/cordinatesfromfile.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/webmap$cordinatesfromfile.coverage" NAME="cordinatesfromfile Coverage Results" MODIFIED="1533766354765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webmap$cordinatesfromfile.coverage" NAME="cordinatesfromfile Coverage Results" MODIFIED="1533769857835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webmap$map.coverage" NAME="map Coverage Results" MODIFIED="1533765687930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -34,12 +37,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="452" />
+          <entry key="py" value="965" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="452" />
+          <entry key="Python" value="965" />
         </counts>
       </usages-collector>
     </session>
@@ -50,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/map.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="12" column="9" lean-forward="true" selection-end-line="25" />
+              <caret line="12" column="9" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -58,8 +61,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cordinatesfromfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="203">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1533770233033" expanded="true" signature="207:312" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,7 +215,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22404371" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13479052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -237,20 +244,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="9" lean-forward="true" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/volcano.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="9" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cordinatesfromfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        <state relative-caret-position="203">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1533770233033" expanded="true" signature="207:312" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
