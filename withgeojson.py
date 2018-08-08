@@ -34,6 +34,8 @@ for lt, ln, el in zip(lat, lon, elev):
         icon=folium.Icon(color=color_producer(el)
         )))
 
+fg.add_child(folium.GeoJson(
+    data=(open('world.json', 'r', encoding='utf-8-sig').read())))
 
 
 
@@ -41,7 +43,7 @@ for lt, ln, el in zip(lat, lon, elev):
 map.add_child(fg)
 
 
-map.save("Map2.html")
+map.save("Map3.html")
 
 
 
