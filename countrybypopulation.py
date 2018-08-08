@@ -1,5 +1,7 @@
 import pandas
-import folium
+
+
+import folium.plugins
 
 data = pandas.read_csv("volcano.txt")
 
@@ -20,7 +22,7 @@ map = folium.Map(
     zoom_start=6,
     tiles="Mapbox Bright")
 
-fg = folium.FeatureGroup(name="My Map")
+fgv = folium.FeatureGroup(name="Volcanos")
 
 marker_color = ''
 
@@ -28,20 +30,28 @@ marker_color = ''
 
 
 for lt, ln, el in zip(lat, lon, elev):
-    fg.add_child(folium.Marker(
+    fgv.add_child(folium.Marker(
         location=[lt, ln],
         popup="Elevation is " + str(el),
         icon=folium.Icon(color=color_producer(el)
         )))
 
+fgp = folium.FeatureGroup(name="Population")
+
+fgp.add_child(folium.GeoJson(
+    data=open('world.json', 'r', encoding='utf-8-sig'),
+    style_function=lambda x: {'fillColor':'green' if x['properties']['POP2005'] < 10000000 else 'orange' if 1000000 <= x['properties']['POP2005'] < 2000000 else 'red'}))
 
 
 
 
-map.add_child(fg)
 
+map.add_child(fgv)
+map.add_child(fgp)
 
-map.save("Map2.html")
+map.add_child(folium.LayerControl())
+
+map.save("Map4.html")
 
 
 
